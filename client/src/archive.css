@@ -1,0 +1,15 @@
+/* Styles for winners, past elections and the archive step. */
+.winner-banner { display: flex; align-items: center; gap: .7rem; margin-bottom: 1.1rem; padding: .9rem 1.1rem; background: var(--secondary-light); color: #3a1a00; border-left: 6px solid var(--primary); border-radius: 8px; font-size: 1.05rem; }
+.winner-banner.none { background: var(--bg); color: var(--text-muted); border-left-color: var(--line); }
+.result-row { margin-bottom: .9rem; }
+.result-row .who { display: flex; align-items: center; gap: .5rem; }
+.result-row.winner .bar div { background: var(--primary); }
+.crown { color: var(--primary-text); }
+.tag-winner { padding: .05rem .6rem; border-radius: 99px; background: var(--primary); color: #fff; font-size: .75rem; font-weight: 600; }
+.past-card .meta { margin: 1rem 0 0; }
+.past-actions { display: flex; flex-wrap: wrap; gap: .8rem; align-items: center; margin-top: 1rem; }
+.success { padding: .8rem 1rem; background: var(--emerald-soft); border: 1px solid var(--emerald); color: var(--emerald); border-radius: 8px; margin: 1rem 0; }
+.success a { color: inherit; font-weight: 600; }
+.archive-box { border-left: 6px solid var(--secondary); }
+.latest-label { margin-top: 1rem; }
+.latest-winner { margin: .1rem 0 .2rem; font-family: var(--serif); font-size: 1.3rem; font-weight: 700; color: var(--primary-text); line-height: 1.2; }

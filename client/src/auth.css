@@ -1,0 +1,21 @@
+/* Password eye icon, forgot-password flow and the officer's reset requests. */
+.pw-wrap { position: relative; display: block; }
+.pw-wrap input { width: 100%; padding-right: 2.9rem; }
+.pw-toggle { position: absolute; top: 50%; right: .35rem; transform: translateY(-50%); padding: .45rem .6rem; border: 0; background: transparent; color: var(--text-muted); font-size: 1rem; line-height: 1; border-radius: 6px; }
+.pw-toggle:hover { color: var(--text-main); }
+.forgot-row { margin: 0 0 .6rem; font-size: .92rem; }
+
+.ticket-card { padding: 1.2rem; background: var(--card-bg); border: 1px solid var(--line); border-left: 6px solid var(--secondary); border-radius: 10px; }
+.ticket-card p { margin: .5rem 0; }
+.verify-code { display: inline-block; margin: .2rem 0 .6rem; padding: .3rem 1.1rem; font-family: ui-monospace, Consolas, monospace; font-size: 2.6rem; font-weight: 700; letter-spacing: .3em; color: var(--primary-text); background: var(--bg); border: 2px dashed var(--primary); border-radius: 10px; }
+.waiting i { margin-right: .5rem; }
+
+.code-chip { flex: none; padding: .15rem .7rem; font-family: ui-monospace, Consolas, monospace; font-size: 1.2rem; font-weight: 700; letter-spacing: .2em; color: #3a1a00; background: var(--secondary-light); border-radius: 6px; }
+.reset-row { padding: .9rem 0; border-top: 1px solid var(--line); }
+.reset-row p { margin: .4rem 0 .7rem; font-size: .9rem; }
+.decision-row { display: flex; flex-wrap: wrap; gap: .3rem 1rem; justify-content: space-between; padding: .5rem 0; border-top: 1px solid var(--line); font-size: .9rem; }
+.decision-row:first-of-type { border-top: 0; }
+
+@media (prefers-reduced-motion: reduce) {
+  .fa-spin { animation: none; }
+}

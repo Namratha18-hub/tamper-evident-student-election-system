@@ -1,0 +1,11 @@
+/* Integrity alert, automatic-check line, find-my-vote and the eligible-voters box. */
+.integrity-alert { display: flex; flex-wrap: wrap; align-items: center; justify-content: center; gap: .6rem; padding: .75rem 1rem; background: #b3261e; color: #fff; font-weight: 500; text-align: center; }
+.auto-check { display: flex; flex-wrap: wrap; align-items: center; gap: .5rem; margin: 1rem 0; padding: .6rem .9rem; background: var(--card-bg); border: 1px solid var(--line); border-radius: 8px; font-size: .92rem; }
+.auto-check.ok { background: var(--emerald-soft); border-color: var(--emerald); color: var(--emerald); }
+.auto-check.bad { background: var(--alert-soft); border-color: var(--alert); color: var(--alert); }
+.find-card { margin: 1.4rem 0; }
+.find-row { display: flex; flex-wrap: wrap; gap: .8rem; align-items: flex-end; }
+.find-row label { flex: 1 1 260px; }
+.check-list { display: flex; flex-direction: column; gap: .3rem; margin: .6rem 0; padding: 0; list-style: none; }
+.check-list i { width: 1.2rem; margin-right: .4rem; }
+.warn { margin: 0; padding: .7rem .9rem; background: #fff4e0; color: #5a3a00; border: 1px solid var(--secondary); border-radius: 8px; }
