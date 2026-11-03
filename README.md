@@ -14,12 +14,13 @@ A full-stack web application for running student elections in which **every stor
 Add your screenshots to `docs/screenshots/` and keep these file names, or edit the links.
 
 | Landing page | Ballot |
-|---|---|
-| ![Landing](docs/screenshots/landing.png) | ![Ballot](docs/screenshots/ballot.png) |
+| --- | --- |
+| [![Landing](docs/screenshots/Landing.png)](docs/screenshots/Landing.png) | [![Ballot](docs/screenshots/Ballot.png)](docs/screenshots/Ballot.png) |
 
 | Admin panel | Tampering detected |
-|---|---|
-| ![Admin](docs/screenshots/admin.png) | ![Tampering](docs/screenshots/tampering.png) |
+| --- | --- |
+| [![Admin](docs/screenshots/Admin.png)](docs/screenshots/Admin.png) | [![Tampering](docs/screenshots/Tampering.png)](docs/screenshots/Tampering.png) |
+
 
 ## Why "tamper-evident"?
 
