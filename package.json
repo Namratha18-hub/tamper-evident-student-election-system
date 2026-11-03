@@ -1,0 +1,11 @@
+{
+  "name": "tamper-evident-election-system",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Student election system where every vote is hash-chained to the one before it.",
+  "engines": { "node": ">=18" },
+  "scripts": {
+    "build": "npm install --prefix server && npm install --prefix client --include=dev && npm run build --prefix client",
+    "start": "npm start --prefix server"
+  }
+}
